@@ -1,0 +1,12 @@
+# Força o GitHub a reconhecer o projeto como Dart
+* linguist-language=Dart
+
+# Ignora as pastas nativas do Android e iOS da contagem de linguagens
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+
+# Ignora arquivos de build
+build/** linguist-vendored
